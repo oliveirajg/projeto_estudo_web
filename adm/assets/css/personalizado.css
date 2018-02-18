@@ -1,0 +1,68 @@
+
+.header-oliv {
+    /*aqui defino minha estilização do cabeçalho da home*/
+    height: 50px; /*altura*/
+    width: 100%; /*largura em toda a largura da pagina*/
+    background-color: peru; /*a cor do fundo do menu superior*/
+
+}
+.row.content {
+    height: 950px;
+}
+.sidenav {
+    background-color: #398439; /*Altera a cor do menu lateral esquerdo*/
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sidenav h2 {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    color: #d4d4d4;
+    background-color: #286090;
+}
+.sidenav ul li a {
+    border-radius: 0px;
+    color: #122b40; /*Altera a cor da fonte menu lateral esquerda*/
+    font-synthesis: weight;
+}
+
+.sidenav ul li a:hover {
+    color: #ffffff;
+    background-color: #122b40; /*Altera a cor mouse menu lateral esquerda*/
+}
+
+.nav > li a:focus{
+    background-color: #30b19b;
+}
+
+
+@media screen and (max-width: 767px) {
+    .row.content{height: auto;}
+}
+.well-personalizado {
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.perfil{
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #286090;
+    border: 0px;
+    color: #fff;
+}
+.perfil span{
+    padding: 5px 2px;
+    color: #fff;
+}
+
+
+.icone {
+    color: #1aad72;
+    font-size: 50px;
+}
